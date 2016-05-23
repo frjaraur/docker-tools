@@ -1,0 +1,23 @@
+{
+  "name": "simpleapp",
+  "version": "1.0.0",
+  "description": "Simple App that shows IP Address and Server Hostname",
+  "main": "app.js",
+  "dependencies": {
+    "my-local-ip": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frjaraur",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frjaraur/docker-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frjaraur/docker-tools/issues"
+  },
+  "homepage": "https://github.com/frjaraur/docker-tools#readme"
+}
