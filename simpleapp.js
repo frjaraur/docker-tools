@@ -6,7 +6,7 @@ var port=args[0];
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end(myip+' - '+hostname);
+  res.end(myip+' - '+hostname+'\n');
   console.log("Request received from " + req.connection.remoteAddress);
 }).listen(port);
 
