@@ -1,0 +1,9 @@
+[Unit]
+Description=Docker Volume Netshare 
+After=docker.service
+
+[Service]
+ExecStart=/usr/bin/docker-volume-netshare nfs
+
+[Install]
+WantedBy=multi-user.target
